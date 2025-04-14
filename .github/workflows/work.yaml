@@ -16,7 +16,7 @@ jobs:
         id: run-script
         shell: pwsh
         env:
-          MYPWD: ${{ secrets.PWD }}
+          MYPWD: ${{ secrets.MYPWD }}
           COOKIE: ${{ secrets.COOKIE }}
           UA: ${{ secrets.UA }}
         run: |
