@@ -5,7 +5,7 @@ param (
 )
 
 # 构建URL
-$url = "https://south-plus.poker-sang.workers.dev/?pwd=$myPwd&cookie=$cookie&ua=$ua"
+$url = "https://southplus.mukosei221111.workers.dev/?pwd=$myPwd&cookie=$cookie&ua=$ua"
 
 try {
     # 发送GET请求
